@@ -1,0 +1,72 @@
+/* Reset default styles for the calculator */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+/* Style the calculator container */
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 2px solid #130d0d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the display area */
+.display {
+    background-color: #f4f4f4;
+    padding: 12px;
+    text-align: right;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* Style the input field */
+#result {
+    width: 100%;
+    outline: none;
+    font-size: 24px;
+    padding: 1px;
+    border: 1px solid #130d0d;
+    border-radius: 5px;
+}
+
+/* Style the buttons container */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Style the buttons */
+button {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the clear button */
+button:nth-child(15) {
+    background-color: #dc3545;
+}
+
+button:nth-child(15):hover {
+    background-color: #c82333;
+}

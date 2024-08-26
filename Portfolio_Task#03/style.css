@@ -1,0 +1,215 @@
+/* Global styles */
+body {
+    background-image: url('background.jpeg');
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #007567;
+    color: #000;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.logo h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+
+/* Hero section styles */
+.hero {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    color: #0390e8;
+    font-weight: bold;
+}
+
+.hero-text a {
+    background-color: #009688;
+    color: #000;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero-text a:hover {
+    background-color: #007567;
+    color: #fff;
+}
+
+/* About, Skills, and Projects section styles */
+.about, .skills, .projects {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about h3, .skills h3, .projects h3 {
+    font-size: 24px;
+    color: #009688; 
+    margin-bottom: 20px;
+}
+.project img {
+    max-width: 50%; 
+    border: 2px solid #555;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills li {
+    margin: 5px;
+    font-size: 18px;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #009688;
+    transition: background-color 0.3s;
+}
+
+.skills li:hover {
+    background-color: #007567;
+    color: #fff;
+}
+
+/* Portfolio section styles */
+.projects {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.projects h3 {
+    font-size: 24px;
+    color: #009688; 
+    margin-bottom: 20px;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact h3 {
+    font-size: 24px;
+    color: #009688;
+}
+
+.contact form {
+    margin: 20px 0;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button[type="submit"] {
+    background-color: #009688;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.contact button[type="submit"]:hover {
+    background-color: #007567;
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media li a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.social-media li a:hover {
+    color: #009688;
+}
